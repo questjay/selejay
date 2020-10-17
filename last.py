@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 import ipaddress
 import requests
 import random
-from pyvirtualdisplay import Display
 from seleniumwire import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
