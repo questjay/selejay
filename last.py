@@ -39,7 +39,7 @@ class Miny(object):
     except Exception as e:
         return str(ip[0]['ip'])
 
-  def myip(self, n):
+  def myip(self):
       try:
         sop =  BeautifulSoup(n,'html.parser')
         x = sop.find_all(class_="rna_ad")
