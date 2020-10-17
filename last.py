@@ -41,8 +41,7 @@ class Miny(object):
 
   def myip(self):
       try:
-        sop =  BeautifulSoup(n,'html.parser')
-        x = sop.find_all(class_="rna_ad")
+        
         return "rNA3218_{n}_title".format(n =random.randint(1,4))
       except Exception as e:
 
